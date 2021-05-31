@@ -1,0 +1,8 @@
+venv
+test_venv
+*.pyc
+.vscode
+
+live_coder.egg-info
+build
+dist

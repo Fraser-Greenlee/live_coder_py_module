@@ -1,0 +1,26 @@
+test.py
+INFO:root:4EmR7TzOvAICFVCp2wcU 11:04:04.09 >>> Call to test_my_method in File "/Users/Fraser/projects/active/live_coder_py_module/test_runs/test.py", line 12
+4EmR7TzOvAICFVCp2wcU 11:04:04.09   12 | def test_my_method():
+
+INFO:root:4EmR7TzOvAICFVCp2wcU 11:04:04.09   13 |     my_method(2, 4)
+
+INFO:root:4EmR7TzOvAICFVCp2wcU     11:04:04.09 >>> Call to my_method in File "/Users/Fraser/projects/active/live_coder_py_module/test_runs/test.py", line 4
+4EmR7TzOvAICFVCp2wcU     11:04:04.09 ...... a = 2
+4EmR7TzOvAICFVCp2wcU     11:04:04.09 ...... b = 4
+4EmR7TzOvAICFVCp2wcU     11:04:04.09    4 | def my_method(a, b):
+
+INFO:root:4EmR7TzOvAICFVCp2wcU     11:04:04.09    5 |     a *= b
+
+INFO:root:4EmR7TzOvAICFVCp2wcU     11:04:04.09 .......... a = 8
+4EmR7TzOvAICFVCp2wcU     11:04:04.09    6 |     c = 33
+
+INFO:root:4EmR7TzOvAICFVCp2wcU     11:04:04.09    7 |     b + c
+
+INFO:root:4EmR7TzOvAICFVCp2wcU     11:04:04.09    8 |     return a + b
+
+INFO:root:4EmR7TzOvAICFVCp2wcU     11:04:04.09 <<< Return value from my_method: 12
+
+INFO:root:4EmR7TzOvAICFVCp2wcU 11:04:04.09   13 |     my_method(2, 4)
+
+INFO:root:4EmR7TzOvAICFVCp2wcU 11:04:04.09 <<< Return value from test_my_method: None
+
