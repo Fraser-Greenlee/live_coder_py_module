@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="live-coder",
-    version="0.0.116",
+    version="0.0.123",
     author="Fraser Greenlee",
     author_email="frassyg@gmail.com",
     description="Snoop wrapper for Live Coder, should be used with the Live Coder VSCode extension.",

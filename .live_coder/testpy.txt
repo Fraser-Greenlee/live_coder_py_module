@@ -1,0 +1,8 @@
+4EmR7TzOvAICFVCp2wcU 09:00:55.71 >>> Call to test_my_method in File "/Users/Fraser/projects/active/live_coder_py_module/test.py", line 15
+4EmR7TzOvAICFVCp2wcU 09:00:55.71   15 | def test_my_method():
+4EmR7TzOvAICFVCp2wcU 09:00:55.71   16 |     print('test_my_method')
+test_my_method
+4EmR7TzOvAICFVCp2wcU 09:00:55.71   17 |     sleep(10)
+4EmR7TzOvAICFVCp2wcU 09:00:56.98 !!! KeyboardInterrupt
+4EmR7TzOvAICFVCp2wcU 09:00:56.98 !!! When calling: sleep(10)
+4EmR7TzOvAICFVCp2wcU 09:00:56.98 !!! Call ended by exception
