@@ -1,8 +1,16 @@
-4EmR7TzOvAICFVCp2wcU 09:00:55.71 >>> Call to test_my_method in File "/Users/Fraser/projects/active/live_coder_py_module/test.py", line 15
-4EmR7TzOvAICFVCp2wcU 09:00:55.71   15 | def test_my_method():
-4EmR7TzOvAICFVCp2wcU 09:00:55.71   16 |     print('test_my_method')
-test_my_method
-4EmR7TzOvAICFVCp2wcU 09:00:55.71   17 |     sleep(10)
-4EmR7TzOvAICFVCp2wcU 09:00:56.98 !!! KeyboardInterrupt
-4EmR7TzOvAICFVCp2wcU 09:00:56.98 !!! When calling: sleep(10)
-4EmR7TzOvAICFVCp2wcU 09:00:56.98 !!! Call ended by exception
+4EmR7TzOvAICFVCp2wcU 08:51:45.91 >>> Call to test_my_method in File "/Users/Fraser/projects/active/live_coder_py_module/test.py", line 15
+4EmR7TzOvAICFVCp2wcU 08:51:45.91   15 | def test_my_method():
+4EmR7TzOvAICFVCp2wcU 08:51:45.91   16 |     my_method(2, 4)
+4EmR7TzOvAICFVCp2wcU     08:51:45.91 >>> Call to my_method in File "/Users/Fraser/projects/active/live_coder_py_module/test.py", line 7
+4EmR7TzOvAICFVCp2wcU     08:51:45.91 ...... a = 2
+4EmR7TzOvAICFVCp2wcU     08:51:45.91 ...... b = 4
+4EmR7TzOvAICFVCp2wcU     08:51:45.91    7 | def my_method(a, b):
+4EmR7TzOvAICFVCp2wcU     08:51:45.91    8 |     a *= b
+4EmR7TzOvAICFVCp2wcU     08:51:45.91 .......... a = 8
+4EmR7TzOvAICFVCp2wcU     08:51:45.91    9 |     c = randint(2, 5)
+4EmR7TzOvAICFVCp2wcU     08:51:45.91 .......... c = 2
+4EmR7TzOvAICFVCp2wcU     08:51:45.91   10 |     b + c
+4EmR7TzOvAICFVCp2wcU     08:51:45.91   11 |     return a + b
+4EmR7TzOvAICFVCp2wcU     08:51:45.91 <<< Return value from my_method: 12
+4EmR7TzOvAICFVCp2wcU 08:51:45.91   16 |     my_method(2, 4)
+4EmR7TzOvAICFVCp2wcU 08:51:45.91 <<< Return value from test_my_method: None
