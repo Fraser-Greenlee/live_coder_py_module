@@ -26,6 +26,7 @@ def current_working_dir():
 
 WORKSPACE_PATH = os.environ.get('LC_WORKSPACE_PATH', current_working_dir())
 IGNORE_PATH = get_ignore_path(WORKSPACE_PATH)
+TRACE_ALL_CODE = os.environ.get('LC_TRACE_ALL_CODE', False)
 
 
 def sanitize(filename):
@@ -72,7 +73,7 @@ class InfDefaultTracer(Tracer):
         return False
 
     def _is_internal_frame(self, frame):
-        return super()._is_internal_frame(frame) or self._is_non_workspace_frame(frame)
+        return super()._is_internal_frame(frame) or (self._is_non_workspace_frame(frame) and not TRACE_ALL_CODE)
 
     def __call__(self, function):
         snoop_function = super().__call__(function)
