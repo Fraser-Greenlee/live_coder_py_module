@@ -1,8 +1,46 @@
-4EmR7TzOvAICFVCp2wcU 08:35:25.91 >>> Call to a in File "/Users/Fraser/projects/active/live_coder_py_module/test_except.py", line 23
-4EmR7TzOvAICFVCp2wcU 08:35:25.91   23 | def a():
-4EmR7TzOvAICFVCp2wcU 08:35:25.91   24 |     b = '''
-4EmR7TzOvAICFVCp2wcU 08:35:25.91 .......... b = '\n\n    a\n    test\n\n    '
-4EmR7TzOvAICFVCp2wcU 08:35:25.91   30 |     print(b())
-4EmR7TzOvAICFVCp2wcU 08:35:25.93 !!! TypeError: 'str' object is not callable
-4EmR7TzOvAICFVCp2wcU 08:35:25.93 !!! When calling: b()
-4EmR7TzOvAICFVCp2wcU 08:35:25.93 !!! Call ended by exception
+4EmR7TzOvAICFVCp2wcU 12:28:37.64 >>> Call to a in File "/Users/Fraser/projects/active/live_coder_py_module/test_except.py", line 29
+4EmR7TzOvAICFVCp2wcU 12:28:37.64   29 | def a():
+4EmR7TzOvAICFVCp2wcU 12:28:37.64   30 |     aa = e()
+4EmR7TzOvAICFVCp2wcU     12:28:37.64 >>> Call to e in File "/Users/Fraser/projects/active/live_coder_py_module/test_except.py", line 24
+4EmR7TzOvAICFVCp2wcU     12:28:37.64   24 | def e():
+4EmR7TzOvAICFVCp2wcU     12:28:37.64   25 |     return 3
+4EmR7TzOvAICFVCp2wcU     12:28:37.64 <<< Return value from e: 3
+4EmR7TzOvAICFVCp2wcU 12:28:37.64   30 |     aa = e()
+4EmR7TzOvAICFVCp2wcU 12:28:37.64 .......... aa = 3
+4EmR7TzOvAICFVCp2wcU 12:28:37.64   31 |     bb = '''
+4EmR7TzOvAICFVCp2wcU 12:28:37.64 .......... bb = '\n\n    a\n    test\n\n    '
+4EmR7TzOvAICFVCp2wcU 12:28:37.64   37 |     print(b())
+4EmR7TzOvAICFVCp2wcU     12:28:37.64 >>> Call to b in File "/Users/Fraser/projects/active/live_coder_py_module/test_except.py", line 13
+4EmR7TzOvAICFVCp2wcU     12:28:37.64   13 | def b():
+4EmR7TzOvAICFVCp2wcU     12:28:37.64   14 |     print('1\n1')
+1
+1
+4EmR7TzOvAICFVCp2wcU     12:28:37.64   15 |     try:
+4EmR7TzOvAICFVCp2wcU     12:28:37.64   16 |         print(2)
+2
+4EmR7TzOvAICFVCp2wcU     12:28:37.64   17 |         aa = c()
+4EmR7TzOvAICFVCp2wcU         12:28:37.64 >>> Call to c in File "/Users/Fraser/projects/active/live_coder_py_module/test_except.py", line 9
+4EmR7TzOvAICFVCp2wcU         12:28:37.64    9 | def c():
+4EmR7TzOvAICFVCp2wcU         12:28:37.64   10 |     return d()
+4EmR7TzOvAICFVCp2wcU             12:28:37.64 >>> Call to d in File "/Users/Fraser/projects/active/live_coder_py_module/test_except.py", line 4
+4EmR7TzOvAICFVCp2wcU             12:28:37.64    4 | def d():
+4EmR7TzOvAICFVCp2wcU             12:28:37.64    5 |     xx = 1 + 'a'
+4EmR7TzOvAICFVCp2wcU             12:28:37.65 !!! TypeError: unsupported operand type(s) for +: 'int' and 'str'
+4EmR7TzOvAICFVCp2wcU             12:28:37.65 !!! When evaluating: 1 + 'a'
+4EmR7TzOvAICFVCp2wcU             12:28:37.65 !!! Call ended by exception
+4EmR7TzOvAICFVCp2wcU         12:28:37.65   10 |     return d()
+4EmR7TzOvAICFVCp2wcU         12:28:37.65 !!! TypeError: unsupported operand type(s) for +: 'int' and 'str'
+4EmR7TzOvAICFVCp2wcU         12:28:37.65 !!! When calling: d()
+4EmR7TzOvAICFVCp2wcU         12:28:37.65 !!! Call ended by exception
+4EmR7TzOvAICFVCp2wcU     12:28:37.66   17 |         aa = c()
+4EmR7TzOvAICFVCp2wcU     12:28:37.66 !!! TypeError: unsupported operand type(s) for +: 'int' and 'str'
+4EmR7TzOvAICFVCp2wcU     12:28:37.66 !!! When calling: c()
+4EmR7TzOvAICFVCp2wcU     12:28:37.66   18 |     except TypeError:
+4EmR7TzOvAICFVCp2wcU     12:28:37.66   19 |         aa = 3
+4EmR7TzOvAICFVCp2wcU     12:28:37.66   20 |     bb = aa + 8
+4EmR7TzOvAICFVCp2wcU     12:28:37.66 .......... bb = 11
+4EmR7TzOvAICFVCp2wcU     12:28:37.66   21 |     return bb
+4EmR7TzOvAICFVCp2wcU     12:28:37.66 <<< Return value from b: 11
+11
+4EmR7TzOvAICFVCp2wcU 12:28:37.66   37 |     print(b())
+4EmR7TzOvAICFVCp2wcU 12:28:37.66 <<< Return value from a: None

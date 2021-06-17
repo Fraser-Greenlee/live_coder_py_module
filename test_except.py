@@ -11,7 +11,9 @@ def c():
 
 
 def b():
+    print('1\n1')
     try:
+        print(2)
         aa = c()
     except TypeError:
         aa = 3
@@ -19,9 +21,14 @@ def b():
     return bb
 
 
+def e():
+    return 3
+
+
 @snoop
 def a():
-    b = '''
+    aa = e()
+    bb = '''
 
     a
     test
