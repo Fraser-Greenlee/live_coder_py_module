@@ -1,16 +1,17 @@
-4EmR7TzOvAICFVCp2wcU 08:51:45.91 >>> Call to test_my_method in File "/Users/Fraser/projects/active/live_coder_py_module/test.py", line 15
-4EmR7TzOvAICFVCp2wcU 08:51:45.91   15 | def test_my_method():
-4EmR7TzOvAICFVCp2wcU 08:51:45.91   16 |     my_method(2, 4)
-4EmR7TzOvAICFVCp2wcU     08:51:45.91 >>> Call to my_method in File "/Users/Fraser/projects/active/live_coder_py_module/test.py", line 7
-4EmR7TzOvAICFVCp2wcU     08:51:45.91 ...... a = 2
-4EmR7TzOvAICFVCp2wcU     08:51:45.91 ...... b = 4
-4EmR7TzOvAICFVCp2wcU     08:51:45.91    7 | def my_method(a, b):
-4EmR7TzOvAICFVCp2wcU     08:51:45.91    8 |     a *= b
-4EmR7TzOvAICFVCp2wcU     08:51:45.91 .......... a = 8
-4EmR7TzOvAICFVCp2wcU     08:51:45.91    9 |     c = randint(2, 5)
-4EmR7TzOvAICFVCp2wcU     08:51:45.91 .......... c = 2
-4EmR7TzOvAICFVCp2wcU     08:51:45.91   10 |     b + c
-4EmR7TzOvAICFVCp2wcU     08:51:45.91   11 |     return a + b
-4EmR7TzOvAICFVCp2wcU     08:51:45.91 <<< Return value from my_method: 12
-4EmR7TzOvAICFVCp2wcU 08:51:45.91   16 |     my_method(2, 4)
-4EmR7TzOvAICFVCp2wcU 08:51:45.91 <<< Return value from test_my_method: None
+4EmR7TzOvAICFVCp2wcU 07:22:28.13 >>> Call to test_my_method in File "/Users/Fraser/projects/active/live_coder_py_module/test.py", line 15
+4EmR7TzOvAICFVCp2wcU 07:22:28.13   15 | def test_my_method():
+4EmR7TzOvAICFVCp2wcU 07:22:28.13   16 |     my_method(2, 4)
+4EmR7TzOvAICFVCp2wcU     07:22:28.13 >>> Call to my_method in File "/Users/Fraser/projects/active/live_coder_py_module/test.py", line 7
+4EmR7TzOvAICFVCp2wcU     07:22:28.13 ...... a = 2
+4EmR7TzOvAICFVCp2wcU     07:22:28.13 ...... b = 4
+4EmR7TzOvAICFVCp2wcU     07:22:28.13    7 | def my_method(a, b):
+4EmR7TzOvAICFVCp2wcU     07:22:28.13    8 |     a *= b
+4EmR7TzOvAICFVCp2wcU     07:22:28.13 .......... a = 8
+4EmR7TzOvAICFVCp2wcU     07:22:28.13    9 |     c = randint(5, 2)
+4EmR7TzOvAICFVCp2wcU     07:22:28.15 !!! ValueError: empty range for randrange() (5, 3, -2)
+4EmR7TzOvAICFVCp2wcU     07:22:28.15 !!! When calling: randint(5, 2)
+4EmR7TzOvAICFVCp2wcU     07:22:28.15 !!! Call ended by exception
+4EmR7TzOvAICFVCp2wcU 07:22:28.15   16 |     my_method(2, 4)
+4EmR7TzOvAICFVCp2wcU 07:22:28.15 !!! ValueError: empty range for randrange() (5, 3, -2)
+4EmR7TzOvAICFVCp2wcU 07:22:28.15 !!! When calling: my_method(2, 4)
+4EmR7TzOvAICFVCp2wcU 07:22:28.15 !!! Call ended by exception

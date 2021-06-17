@@ -1,0 +1,8 @@
+4EmR7TzOvAICFVCp2wcU 08:35:25.91 >>> Call to a in File "/Users/Fraser/projects/active/live_coder_py_module/test_except.py", line 23
+4EmR7TzOvAICFVCp2wcU 08:35:25.91   23 | def a():
+4EmR7TzOvAICFVCp2wcU 08:35:25.91   24 |     b = '''
+4EmR7TzOvAICFVCp2wcU 08:35:25.91 .......... b = '\n\n    a\n    test\n\n    '
+4EmR7TzOvAICFVCp2wcU 08:35:25.91   30 |     print(b())
+4EmR7TzOvAICFVCp2wcU 08:35:25.93 !!! TypeError: 'str' object is not callable
+4EmR7TzOvAICFVCp2wcU 08:35:25.93 !!! When calling: b()
+4EmR7TzOvAICFVCp2wcU 08:35:25.93 !!! Call ended by exception
